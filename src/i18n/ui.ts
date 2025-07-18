@@ -77,13 +77,13 @@ export const ui = {
       rights: 'Tous droits réservés.',
     },
     homePage: {
-      pageTitle: 'Accueil |  Développeur FullStack',
+      pageTitle: 'Accueil |  Maissa Kobelé Keita - Portfolio',
       pageDescription:
-        "Bienvenue sur le portfolio de YOUR_NAME, développeur FullStack passionné par la création d'expériences web innovantes.",
-      heroGreeting: "Salut, c'est YOUR_NAME",
-      heroSubtitlePart1: 'Développeur FullStack',
-      heroSubtitlePart2: 'Passionné UI/UX',
-      heroIntroduction: 'Ajouter une introduction ici.',
+        "Bienvenue sur le portfolio de Maissa Kobelé Keita, Product Manager passionnée par l\'innovation tech, la création de communautés et l\'impact positif.",
+      heroGreeting: "Salut, c'est Maissa",
+      heroSubtitlePart1: 'Product Manager',
+      heroSubtitlePart2: 'Créatrice de Communauté & Passionnée de Tech',
+      heroIntroduction: 'Ex Microsoft et etudiante a UC Berkeley.',
       heroViewWorkButton: 'Mes réalisations',
       heroContactButton: 'Me contacter',
       heroImageAlt:
@@ -99,7 +99,7 @@ export const ui = {
         "Explorez l'expertise et les capacités qui définissent mon travail et ma passion.",
     },
     blogPage: {
-      pageTitle: 'Mon Blog Technique',
+      pageTitle: 'Mon Blog ',
       pageDescription:
         "Articles et réflexions sur le développement web, l'architecture logicielle, et les nouvelles technologies.",
       title: 'Mon Blog Technique',
@@ -289,13 +289,13 @@ export const ui = {
       rights: 'All rights reserved.',
     },
     homePage: {
-      pageTitle: 'Home | YOUR_NAME - FullStack Developer',
+      pageTitle: 'Home | Maissa Kobelé Keita',
       pageDescription:
-        'Welcome to the portfolio of YOUR_NAME, a FullStack developer passionate about creating innovative web experiences.',
-      heroGreeting: "Hi, I'm YOUR_NAME",
-      heroSubtitlePart1: 'Full Stack Developer',
-      heroSubtitlePart2: 'UI/UX Enthusiast',
-      heroIntroduction: 'Add an introduction here.',
+        'Product Manager, Tech Enthusiast, and Community Builder passionate about innovation and impact.',
+      heroGreeting: "Hi, I'm Maissa",
+      heroSubtitlePart1: 'UC Berkeley Student',
+      heroSubtitlePart2: 'Community Builder & Tech Enthusiast',
+      heroIntroduction: 'Former Intern at Microsoft, Non-Profit Founder, and passionate about bridging technology with social impact.',
       heroViewWorkButton: 'View My Work',
       heroContactButton: 'Get In Touch',
       heroImageAlt:
@@ -311,7 +311,7 @@ export const ui = {
         'Explore the expertise and abilities that define my work and passion.',
     },
     blogPage: {
-      pageTitle: 'My Technical Blog',
+      pageTitle: 'My Blog',
       pageDescription:
         'Articles and thoughts on web development, software architecture, and new technologies.',
       title: 'My Technical Blog',
