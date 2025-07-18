@@ -1,6 +1,6 @@
 // Import i18n utilities
 import { ui, defaultLanguage, type LanguageCode } from '@/i18n/ui';
-import placeholderImage from '@/assets/placeholder.webp';
+//import placeholderImage from '@/assets/placeholder.webp';
 import type {
   ProjectData,
   SkillData,
@@ -12,7 +12,7 @@ const projectsListUnsorted: Array<ProjectData> = [
   {
     id: 'sampleProject', // Unique identifier for translations
     slug: 'sample-project', // Used in the URL
-    imageUrl: placeholderImage, // Use imported ImageMetadata
+    // imageUrl: placeholderImage, // Use imported ImageMetadata
     // projectUrl: '#', // Optional: Link to the live project
     // codeUrl: '#', // Optional: Link to the source code
     tags: ['Astro', 'TypeScript', 'Template'], // Generic tags
@@ -171,41 +171,41 @@ export function getTranslatedProjectBySlug(
 // Skills
 export const skillsList: Array<SkillData> = [
   {
-    id: 'frontendDevelopment',
-    iconName: 'MonitorSmartphone',
+    id: 'productManagement',
+    iconName: 'MonitorSmartphone', // You can change these icons later
     technologies: [
-      { id: 'html', name: 'HTML' },
-      { id: 'css', name: 'CSS' },
-      { id: 'javascript', name: 'JavaScript' },
-      { id: 'typescript', name: 'TypeScript' },
+      { id: 'strategy', name: 'Product Strategy' },
+      { id: 'roadmapping', name: 'Roadmapping' },
+      { id: 'analytics', name: 'Analytics' },
+      { id: 'agile', name: 'Agile' },
     ],
   },
   {
-    id: 'backendDevelopment',
+    id: 'communityBuilding',
     iconName: 'ServerCog',
     technologies: [
-      { id: 'nodejs', name: 'Node.js' },
-      { id: 'restapi', name: 'REST APIs' },
+      { id: 'leadership', name: 'Leadership' },
+      { id: 'events', name: 'Event Management' },
+      { id: 'networking', name: 'Networking' },
     ],
   },
   {
-    id: 'uiUxDesign',
+    id: 'techStrategy',
     iconName: 'PenTool',
     technologies: [
-      { id: 'figma', name: 'Figma' },
-      { id: 'responsiveDesign', name: 'Responsive Design' },
+      { id: 'innovation', name: 'Innovation' },
+      { id: 'digitalTransform', name: 'Digital Transformation' },
     ],
   },
   {
-    id: 'devOps',
+    id: 'leadership',
     iconName: 'Network',
     technologies: [
-      { id: 'git', name: 'Git' },
-      { id: 'docker', name: 'Docker' },
+      { id: 'mentoring', name: 'Mentoring' },
+      { id: 'teamBuilding', name: 'Team Building' },
     ],
   },
 ];
-
 // Function to get skills with translated content
 export function getTranslatedSkills(
   lang: LanguageCode | undefined
