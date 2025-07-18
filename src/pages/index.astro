@@ -2,27 +2,26 @@
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import { defaultLanguage, useTranslations, type LanguageCode } from '@/i18n/ui';
 import {
-  PortfolioScreen,
-  getTranslatedProjects,
-  getTranslatedSkills,
-  type TranslatedSkill,
-  type TranslatedProject,
+PortfolioScreen,
+getTranslatedProjects,
+getTranslatedSkills,
+type TranslatedSkill,
+type TranslatedProject,
 } from '@/features/projects';
 
-const lang =
-  (Astro.currentLocale as LanguageCode | undefined) ?? defaultLanguage;
+const lang = (Astro.currentLocale as LanguageCode | undefined) ?? defaultLanguage;
 const t = useTranslations(lang, 'homePage');
-
 const pageTitle = t('pageTitle');
 const pageDescription = t('pageDescription');
 
-const projects: Array<TranslatedProject> = getTranslatedProjects(lang);
-const skills: Array<TranslatedSkill> = getTranslatedSkills(lang);
+// Temporarily disabled
+//const projects: Array<TranslatedProject> = getTranslatedProjects(lang);
+//const skills: Array<TranslatedSkill> = getTranslatedSkills(lang);
 
 const layoutProps = {
   lang,
-  projects,
-  skills,
+  projects: [], // Add empty arrays
+  skills: [],   // Add empty arrays
   heroGreeting: t('heroGreeting'),
   heroSubtitlePart1: t('heroSubtitlePart1'),
   heroSubtitlePart2: t('heroSubtitlePart2'),
